@@ -1,0 +1,31 @@
+.heading-content {
+    position: relative;
+}
+
+.heading-search {
+    width: 240px;
+    position: relative;
+    padding: 3px;
+    background-color: var(--primary-color);
+}
+
+.search-input:focus {
+    border: none;
+    border-color: var(--primary-color);
+}
+
+.search-input {
+    font-size: 1.8rem;
+    width: 240px;
+    border: none;
+}
+
+.search-btn {
+    background-color: aliceblue;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: auto;
+    width: auto;
+}

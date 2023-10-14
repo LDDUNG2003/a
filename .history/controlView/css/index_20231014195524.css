@@ -1,0 +1,15 @@
+.app__content {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.content-table {
+    padding: 10px;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.table--row {}
+
+.table--item {}

@@ -1,0 +1,30 @@
+.app__content {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.content-table {
+    padding: 10px;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.table--row {}
+
+.table--item {
+    border: solid 2px #000;
+}
+
+.table--item-impotain {
+    border: solid 2px #000;
+    text-transform: capitalize;
+}
+
+.table-date--item {
+    font-weight: 300;
+    background-color: #ccc;
+    font-size: 1.3rem;
+    width: 10px;
+    height: 10px;
+}

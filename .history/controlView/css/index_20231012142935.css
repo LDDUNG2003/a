@@ -1,0 +1,21 @@
+.heading-content {
+    position: relative;
+}
+
+.heading-search {
+    width: 240px;
+    position: relative;
+}
+
+.search-input {
+    font-size: 1.6px;
+    padding: 10px;
+    width: 240px;
+}
+
+.search-btn {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}

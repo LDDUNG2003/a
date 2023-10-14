@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #0066cc;
+    --text-color: #414141;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html,
+body {
+    font-size: 0.62rem;
+}
+
+.main {}
+
+.app__header {
+    width: 100%;
+}
+
+.navBar {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navBar-list {
+    display: flex;
+    list-style: none;
+}
+
+.navBar--items {
+    font-size: 1.8rem;
+}
+
+.navbar--link {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.account-list {}
+
+.account--item {}
+
+.account--link {}

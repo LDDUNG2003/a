@@ -1,0 +1,10 @@
+:root {
+    --primary-color: #0066cc;
+    --text-color: #414141;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 0.62rem;
+}

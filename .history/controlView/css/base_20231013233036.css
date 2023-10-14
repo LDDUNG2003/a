@@ -1,0 +1,39 @@
+:root {
+    --primary-color: #0066cc;
+    --text-color: #414141;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 0.62rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main {}
+
+.app__header {
+    width: 100%;
+}
+
+.navBar {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.navBar-list {
+    display: flex;
+    list-style: none;
+}
+
+.navBar--items {
+    font-size: 1.6rem;
+}
+
+.navbar--link {}
+
+.account-list {}
+
+.account--item {}
+
+.account--link {}

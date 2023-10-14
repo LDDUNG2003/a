@@ -1,0 +1,71 @@
+:root {
+    --primary-color: #0066cc;
+    --text-color: #414141;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html,
+body {
+    font-size: 0.62rem;
+}
+
+.main {}
+
+.app__header {
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: solid 2px #ccc;
+}
+
+.navBar {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.navBar-list {
+    display: flex;
+    list-style: none;
+}
+
+.navBar--items {
+    padding: 0px 10px;
+    font-size: 1.8rem;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.navBar--items:hover {
+    background-color: ;
+}
+
+.navbar--link {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.account-list {
+    position: absolute;
+    width: 150px;
+    display: none;
+    list-style: none;
+    padding: 4px;
+    box-shadow: #414141;
+    background-color: white;
+    border: solid 5px var(--primary-color);
+}
+
+.navBar--items:hover .account-list {
+    display: block;
+}
+
+.account--item {
+    padding: 5px 0px;
+    border-bottom: solid 1px #ccc;
+}

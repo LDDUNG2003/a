@@ -1,0 +1,26 @@
+.main {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+}
+
+.navBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}
+
+.navBar-list {
+    display: flex;
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+.navBar-list--item {}
+
+.navBar-list--link {}

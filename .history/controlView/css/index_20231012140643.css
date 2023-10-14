@@ -1,0 +1,38 @@
+.main {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+}
+
+.navBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}
+
+.navBar-list {
+    display: flex;
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+.navBar-list--item {
+    padding: 5px 10px;
+}
+
+.navBar-list--item:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.navBar-list--link {
+    font-size: 1.4rem;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}

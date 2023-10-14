@@ -1,0 +1,22 @@
+.heading-content {
+    position: relative;
+}
+
+.heading-search {
+    width: 260px;
+    position: relative;
+}
+
+.search-input {
+    font-size: 1.6rem;
+    width: 240px;
+    border-color: var(--primary-color);
+}
+
+.search-btn {
+    background-color: aliceblue;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
