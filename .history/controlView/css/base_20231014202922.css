@@ -32,8 +32,8 @@ body {
 
 .navBar-list {
     display: flex;
-    list-style: none;
     color: #fff;
+    list-style: none;
 }
 
 .navBar--items {
@@ -41,6 +41,7 @@ body {
     font-size: 1.8rem;
     position: relative;
     text-transform: capitalize;
+    color: var(--text-color);
 }
 
 .navBar--items::after {

@@ -17,10 +17,9 @@ body {
 .main {}
 
 .app__header {
-    color: #fff;
     width: 100%;
     border-bottom: solid 2px #ccc;
-    background-color: var(--primary-color);
+    background-color: #aaaaaa;
 }
 
 .navBar {
@@ -33,7 +32,6 @@ body {
 .navBar-list {
     display: flex;
     list-style: none;
-    color: #fff;
 }
 
 .navBar--items {
@@ -41,6 +39,7 @@ body {
     font-size: 1.8rem;
     position: relative;
     text-transform: capitalize;
+    color: var(--text-color);
 }
 
 .navBar--items::after {

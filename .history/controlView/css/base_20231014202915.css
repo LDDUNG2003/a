@@ -28,12 +28,12 @@ body {
     max-width: 1200px;
     margin: auto;
     cursor: pointer;
+    color: #fff;
 }
 
 .navBar-list {
     display: flex;
     list-style: none;
-    color: #fff;
 }
 
 .navBar--items {
@@ -41,6 +41,7 @@ body {
     font-size: 1.8rem;
     position: relative;
     text-transform: capitalize;
+    color: var(--text-color);
 }
 
 .navBar--items::after {
