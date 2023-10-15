@@ -1,0 +1,18 @@
+.content-information {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.infomation--contain {
+    width: 48%;
+    border: solid 2px #ccc;
+}
+
+.infomation--heading {}
+
+.infomation {}
+
+.infomation--text {}
+
+.infomation--input {}
